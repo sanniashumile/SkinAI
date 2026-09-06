@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">DermAI</string>
+    <string name="app_tagline">مصنوعی ذہانت سے جلد کا تجزیہ</string>
+
+    <!-- Home -->
+    <string name="home_choose_scan_type">اسکین کی قسم منتخب کریں</string>
+    <string name="home_scan_history">اسکین کی تاریخ</string>
+    <string name="home_glossary">لغت</string>
+    <string name="home_disclaimer">DermAI صرف عمومی تعلیمی معلومات فراہم کرتا ہے اور یہ پیشہ ور طبی تشخیص کا متبادل نہیں ہے۔</string>
+    <string name="status_online">آن لائن — کلاؤڈ AI تجزیہ</string>
+    <string name="status_offline">آف لائن — آن ڈیوائس تجزیہ</string>
+
+    <!-- Categories -->
+    <string name="category_mole_title">تل / نشان چیک کریں</string>
+    <string name="category_mole_subtitle">تلوں اور زخموں کے لیے خصوصی اسکریننگ</string>
+    <string name="category_general_title">عمومی جلد کی جانچ</string>
+    <string name="category_general_subtitle">عام جلدی امراض کی وسیع اسکریننگ</string>
+    <string name="category_cosmetic_title">کاسمیٹک معائنہ</string>
+    <string name="category_cosmetic_subtitle">جلد کی ساخت اور ظاہری تجزیہ</string>
+
+    <!-- Scan screen -->
+    <string name="scan_no_image">کوئی تصویر منتخب نہیں کی گئی</string>
+    <string name="scan_camera">کیمرہ</string>
+    <string name="scan_gallery">گیلری</string>
+    <string name="scan_analyze">تجزیہ کریں</string>
+
+    <!-- Result screen -->
+    <string name="result_title">اسکین کا نتیجہ</string>
+    <string name="result_overview">جائزہ</string>
+    <string name="result_symptoms">عام علامات</string>
+    <string name="result_warning_signs">خطرے کی علامات</string>
+    <string name="result_precautions">احتیاطی تدابیر</string>
+    <string name="result_care_tips">دیکھ بھال کے مشورے</string>
+    <string name="result_lifestyle">طرز زندگی کے مشورے</string>
+    <string name="result_when_to_see_doctor">ڈاکٹر سے کب رجوع کریں</string>
+    <string name="result_scan_again">دوبارہ اسکین کریں</string>
+    <string name="result_disclaimer">یہ ایپ صرف عمومی تعلیمی معلومات فراہم کرتی ہے۔ یہ طبی تشخیص نہیں ہے۔ کسی بھی تشویشناک یا مستقل جلدی مسئلے کے لیے براہ کرم ماہر امراض جلد سے رجوع کریں۔</string>
+    <string name="result_source_online">کلاؤڈ AI کے ذریعے تجزیہ کیا گیا</string>
+    <string name="result_source_offline">آن ڈیوائس تجزیہ کیا گیا (آف لائن)</string>
+    <string name="result_skin_tone_prefix">جلد کی رنگت — قسم</string>
+    <string name="result_sun_reaction">دھوپ کا ردعمل:</string>
+    <string name="result_recommended_spf">تجویز کردہ سن اسکرین:</string>
+    <string name="result_sun_care_tips">دھوپ سے بچاؤ کے مشورے</string>
+    <string name="result_skin_tone_disclaimer">یہ تصویر کے رنگ کے تجزیے پر مبنی ایک تخمینی اندازہ ہے، طبی جائزہ نہیں — روشنی اور کیمرے کی ترتیبات نتیجے پر اثر انداز ہو سکتی ہیں۔</string>
+
+    <!-- Glossary -->
+    <string name="glossary_title">امراض کی لغت</string>
+    <string name="glossary_search_hint">امراض تلاش کریں...</string>
+
+    <!-- History -->
+    <string name="history_title">اسکین کی تاریخ</string>
+    <string name="history_empty">ابھی تک کوئی اسکین نہیں</string>
+
+    <!-- Settings -->
+    <string name="settings_title">ترتیبات</string>
+    <string name="settings_ai_cloud_title">AI کلاؤڈ تجزیہ</string>
+    <string name="settings_ai_cloud_desc">بہتر آن لائن تجزیے کے لیے اپنی مفت گوگل Gemini (AI Studio) API کلید درج کریں۔ aistudio.google.com/apikey سے حاصل کریں۔ آپ کی کلید آپ کے ڈیوائس پر محفوظ رہتی ہے اور صرف براہ راست گوگل کو بھیجی جاتی ہے۔</string>
+    <string name="settings_api_key_label">Gemini API کلید</string>
+    <string name="settings_save_key">API کلید محفوظ کریں</string>
+    <string name="settings_saved">محفوظ ہو گیا ✓</string>
+    <string name="settings_force_offline_title">آف لائن موڈ پر مجبور کریں</string>
+    <string name="settings_force_offline_desc">آن لائن ہونے کے باوجود ہمیشہ آن ڈیوائس ماڈل استعمال کریں۔</string>
+    <string name="settings_language_title">ایپ کی زبان</string>
+    <string name="settings_language_desc">ایپ کے انٹرفیس کے لیے اپنی پسندیدہ زبان منتخب کریں۔</string>
+    <string name="settings_theme_title">ظہور</string>
+    <string name="settings_theme_light">روشن</string>
+    <string name="settings_theme_dark">تاریک</string>
+    <string name="settings_theme_system">سسٹم</string>
+
+    <!-- Dermatologist contact -->
+    <string name="contact_dermatologist">ماہر امراض جلد سے رابطہ کریں</string>
+    <string name="contact_find_nearby">قریبی ماہرین تلاش کریں</string>
+    <string name="contact_find_nearby_desc">آپ کے قریب ماہرین امراض جلد کے لیے نقشہ کھولتا ہے۔</string>
+    <string name="contact_call_helpline">صحت جلد ہیلپ لائن پر کال کریں</string>
+    <string name="contact_call_helpline_desc">شروع کہاں سے کریں معلوم نہیں؟ ایک صحت مشیر سے بات کریں۔</string>
+
+    <!-- Profile -->
+    <string name="profile_title">میری پروفائل</string>
+    <string name="profile_name_label">پورا نام</string>
+    <string name="profile_dob_label">تاریخ پیدائش</string>
+    <string name="profile_cnic_label">شناختی کارڈ نمبر</string>
+    <string name="profile_cnic_hint">مثال: 12345-1234567-1</string>
+    <string name="profile_save">پروفائل محفوظ کریں</string>
+    <string name="profile_saved">پروفائل محفوظ ہو گئی ✓</string>
+    <string name="profile_privacy_note">آپ کی پروفائل کی معلومات صرف اس ڈیوائس پر محفوظ رہتی ہیں اور کبھی شیئر یا اپ لوڈ نہیں کی جاتیں۔</string>
+
+    <!-- Common -->
+    <string name="back">واپس</string>
+</resources>

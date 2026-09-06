@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">DermAI</string>
+    <string name="app_tagline">AI-powered skin analysis</string>
+
+    <!-- Home -->
+    <string name="home_choose_scan_type">Choose a scan type</string>
+    <string name="home_scan_history">Scan History</string>
+    <string name="home_glossary">Glossary</string>
+    <string name="home_disclaimer">DermAI provides general educational information only and is not a substitute for professional medical diagnosis.</string>
+    <string name="status_online">Online — AI Cloud Analysis</string>
+    <string name="status_offline">Offline — On-Device Analysis</string>
+
+    <!-- Categories -->
+    <string name="category_mole_title">Check a Spot / Mole</string>
+    <string name="category_mole_subtitle">Focused screening for moles and lesions</string>
+    <string name="category_general_title">General Skin Check</string>
+    <string name="category_general_subtitle">Broad screening for common skin conditions</string>
+    <string name="category_cosmetic_title">Cosmetic Checkup</string>
+    <string name="category_cosmetic_subtitle">Skin texture &amp; appearance analysis</string>
+
+    <!-- Scan screen -->
+    <string name="scan_no_image">No image selected</string>
+    <string name="scan_camera">Camera</string>
+    <string name="scan_gallery">Gallery</string>
+    <string name="scan_analyze">Analyze</string>
+
+    <!-- Result screen -->
+    <string name="result_title">Scan Result</string>
+    <string name="result_overview">Overview</string>
+    <string name="result_symptoms">Common Symptoms</string>
+    <string name="result_warning_signs">Warning Signs</string>
+    <string name="result_precautions">Precautions</string>
+    <string name="result_care_tips">Care Tips</string>
+    <string name="result_lifestyle">Lifestyle Advice</string>
+    <string name="result_when_to_see_doctor">When to See a Doctor</string>
+    <string name="result_scan_again">Scan Again</string>
+    <string name="result_disclaimer">This app gives general educational information only. It is not a medical diagnosis. Please consult a dermatologist for any concerning or persistent skin issue.</string>
+    <string name="result_source_online">Analyzed via Cloud AI</string>
+    <string name="result_source_offline">Analyzed On-Device (Offline)</string>
+    <string name="result_skin_tone_prefix">Skin Tone — Type</string>
+    <string name="result_sun_reaction">Sun reaction:</string>
+    <string name="result_recommended_spf">Recommended sunscreen:</string>
+    <string name="result_sun_care_tips">Sun Care Tips</string>
+    <string name="result_skin_tone_disclaimer">This is an approximate estimate based on photo color analysis, not a clinical assessment — lighting and camera settings can affect the result.</string>
+
+    <!-- Glossary -->
+    <string name="glossary_title">Condition Glossary</string>
+    <string name="glossary_search_hint">Search conditions...</string>
+
+    <!-- History -->
+    <string name="history_title">Scan History</string>
+    <string name="history_empty">No scans yet</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_ai_cloud_title">AI Cloud Analysis</string>
+    <string name="settings_ai_cloud_desc">Enter your free Google Gemini (AI Studio) API key to enable smarter online analysis. Get one at aistudio.google.com/apikey. Your key stays on your device and is only sent directly to Google.</string>
+    <string name="settings_api_key_label">Gemini API Key</string>
+    <string name="settings_save_key">Save API Key</string>
+    <string name="settings_saved">Saved ✓</string>
+    <string name="settings_force_offline_title">Force Offline Mode</string>
+    <string name="settings_force_offline_desc">Always use the on-device model, even when online.</string>
+    <string name="settings_language_title">App Language</string>
+    <string name="settings_language_desc">Choose your preferred language for the app interface.</string>
+    <string name="settings_theme_title">Appearance</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System</string>
+
+    <!-- Dermatologist contact -->
+    <string name="contact_dermatologist">Contact a Dermatologist</string>
+    <string name="contact_find_nearby">Find Nearby Dermatologists</string>
+    <string name="contact_find_nearby_desc">Opens a map search for dermatologists near your location.</string>
+    <string name="contact_call_helpline">Call a Skin Health Helpline</string>
+    <string name="contact_call_helpline_desc">Not sure where to start? Speak with a healthcare advisor.</string>
+
+    <!-- Profile -->
+    <string name="profile_title">My Profile</string>
+    <string name="profile_name_label">Full Name</string>
+    <string name="profile_dob_label">Date of Birth</string>
+    <string name="profile_cnic_label">CNIC Number</string>
+    <string name="profile_cnic_hint">e.g. 12345-1234567-1</string>
+    <string name="profile_save">Save Profile</string>
+    <string name="profile_saved">Profile Saved ✓</string>
+    <string name="profile_privacy_note">Your profile information is stored only on this device and is never shared or uploaded.</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+</resources>
